@@ -1,0 +1,4 @@
+com\home\you\bookstore\AssertionTask.class
+com\home\you\bookstore\booklist\TestBookListImpl.class
+com\home\you\bookstore\IntegrationTest.class
+com\home\you\bookstore\rest\server\TestBookStoreServer.class

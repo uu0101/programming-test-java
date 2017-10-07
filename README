@@ -1,0 +1,46 @@
+1) Enter bin/
+2) Start server : ./start-server &
+3) Play
+
+command:
+______________________________________________________________________________
+add-book [title], [author], [price], [quantity]
+
+     Adds a new book to the store. If book already exist;
+     by matching title, author and price (none case sensitive),
+     the quantity is just added
+     
+     Big value with comma sign is not supported currently.
+______________________________________________________________________________
+
+add-to-basket [id, id, id, ...]
+
+     Adds given book (by id) to basket and then display it.
+
+______________________________________________________________________________
+
+browse [part of title or author]
+
+     Display books either by filtering by given string or
+     display all if no filter is given
+______________________________________________________________________________
+
+buy
+
+     Buys the current contant on the basket and display the
+     result (status) and total charged-price
+______________________________________________________________________________
+
+display-basket
+
+     Display the content of the basket together with total
+     price
+______________________________________________________________________________
+
+remove-from-basket [id, id, id, ...]
+
+     Remove one copy of given ids from basket
+______________________________________________________________________________
+
+
+4) Stop server : ./stop-server
